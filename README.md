@@ -3,7 +3,7 @@
 This individual assignment consists of creating a simple user registration form, its validations using React.
 
 * Date Created: 30 05 2021
-* Last Modification Date: 31 05 2021
+* Last Modification Date: 30 05 2021
 
 ## Author
 
