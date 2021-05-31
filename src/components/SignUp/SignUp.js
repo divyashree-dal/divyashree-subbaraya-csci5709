@@ -161,7 +161,7 @@ function SignUp() {
                                 onPaste={(e)=>{e.preventDefault()}}
                                 onChange={handlePasswordChange}
                                 error={error.password}
-                                helperText={error.password ? 'Password should contain alphanumeric and special characters' : ''}
+                                helperText={error.password ? 'Password accepts alphanumeric, special characters and should be mimimum of 8 characters!' : ''}
                             />
                         </Grid>
                         <Grid item xs={12}>
