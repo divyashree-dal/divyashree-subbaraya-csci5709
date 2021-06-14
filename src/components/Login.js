@@ -29,7 +29,7 @@ function Login({userAuthentication}) {
 
     const handleEmailChange = (e) => {
         const { name, value } = e.target;
-        if (value.match(/^\S+@\S+\.\S+$/)) {
+        if (value.match(/^\S+@\S+\.\S{2,}$/)) {
             setError(pre => ({ ...pre, [name]: false }))
             setDetails(pre => ({ ...pre, [name]: value }))
         }
@@ -61,7 +61,6 @@ function Login({userAuthentication}) {
             .then((response) => {
                 if (response.status === 200) {
                     userAuthentication(true)  
-                    console.log('here')
                     history.push("/loginsucess")
                 }
             }, (error) => {

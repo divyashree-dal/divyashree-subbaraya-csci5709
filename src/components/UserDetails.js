@@ -11,13 +11,14 @@ function UserDetails() {
     const [user, setUser] = useState([]);
     const parameter = useParams();
     const api_url = `https://tutorial4-api.herokuapp.com/api/users/${parameter.id}`;
+
     useEffect(() => {
-        async function fetchMovieData() {
+        async function fetchUserData() {
             await axios.get(api_url).then((res) => {
                 setUser(res.data.data)
             });
         };
-        fetchMovieData();
+        fetchUserData();
     },[api_url]);
 
     return (
@@ -28,7 +29,7 @@ function UserDetails() {
             </Typography>
 
             <Paper style={{width:'40%', minWidth:'450px', margin:'auto',height:'20%'}}>
-                <img key={user.id} src={user.picture} alt="user images" style={{height: '525px',width:'100%'}} />
+                <img key={user.id} src={user.picture} alt= {`${user.firstName}'s pictures`} style={{height: '525px',width:'100%'}} />
                 <Grid>
                     <Typography variant="h4" align="center">
                     {user.title}  {user.firstName} {user.lastName}

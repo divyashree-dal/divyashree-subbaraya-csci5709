@@ -79,7 +79,7 @@ function LoginUsers() {
                     (
                         <Grid item xs={8} md={3} style={{ margin: 'auto', padding: '2%' }} key={r.id}>
                             <Paper className={classes.paper} elevation={3} key={r.id}>
-                                <img key={r.id} src={r.picture} alt="user" style={{ width: "100%", height: "100%" }}
+                                <img key={r.id} src={r.picture} alt= {`${r.firstName}'s pictures`} style={{ width: "100%", height: "100%" }}
                                     onClick={() => handleClick(r.id)} />
                                 <Typography variant="h6" className="typoText">
                                     {r.firstName} {r.lastName}
