@@ -27,7 +27,7 @@ function UserDetails() {
                 User Information!
             </Typography>
 
-            <Paper style={{width:'40%', margin:'auto',height:'20%'}}>
+            <Paper style={{width:'40%', minWidth:'450px', margin:'auto',height:'20%'}}>
                 <img key={user.id} src={user.picture} alt="user images" style={{height: '525px',width:'100%'}} />
                 <Grid>
                     <Typography variant="h4" align="center">
@@ -36,6 +36,10 @@ function UserDetails() {
 
                     <Typography variant="h5" align="center">
                         {user.email}
+                    </Typography>
+
+                    <Typography variant="h6" align="center">
+                        <label>User Id: </label>{user.id}
                     </Typography>
                 </Grid>
            </Paper>

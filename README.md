@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+##Tutorial 4 individual Activity
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This individual assignment consists of creating a simple user login form, validate the given credentials sent as POST request body data, redirect the user to a profile listing page, where on the click of a profile image, a user will be redirected to profile detail page. 
 
-## Available Scripts
+Here, all the users list displayed on the profile listing page is retrieved from the API: https://tutorial4-api.herokuapp.com/api/users/
 
-In the project directory, you can run:
+* Date Created: 13 06 2021
+* Last Modification Date: 13 06 2021
 
-### `npm start`
+## Author
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Divyashree Bangalore Subbaraya (dv520656@dal.ca) – Developer 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Built With
 
-### `npm test`
+* React: Front-end development framework
+* Node: Back-end development framework
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Git repository link
 
-### `npm run build`
+* https://github.com/divyashree-dal/divyashree-subbaraya-csci5709
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tutorial 4 individual branch name
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* divyashree-subbaraya-t4-csci5709 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tutorial 4 individual branch link
 
-### `npm run eject`
+* https://github.com/divyashree-dal/divyashree-subbaraya-csci5709/tree/divyashree-subbaraya-t4-csci5709
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deployed Application link
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Sources Used
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* I have referred the main documentations of React and material-ui mainly for detailed syntaxes of different tags like typography, paper, text-fields, forms, snake bar, search box component, MuiAlert, and usage of material-ui with React [1] [2]. 
 
-## Learn More
+* I have also referred my tutorial 3 user registration web activity as a reference for text fields [3].  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[1] "The world's most popular React UI framework - Material-UI", V3.material-ui.com, 2021. [Online] Available at: <https://v3.material-ui.com/> [Accessed: 13 June 2021].
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[2] "Getting Started – React",Reactjs.org, 2021.[Online] Available at: <https://reactjs.org/docs/getting-started.html> [Accessed: 13 June 2021].
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[3] GitHub, 2021. [online] Available: <https://github.com/divyashree-dal/divyashree-subbaraya-csci5709/tree/main> [Accessed: 13 June 2021].

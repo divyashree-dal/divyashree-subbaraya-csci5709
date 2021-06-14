@@ -11,7 +11,7 @@ import axios from 'axios';
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 
-function Login() {
+function Login({userAuthentication}) {
 
     const [error, setError] = useState({
         email: false,
@@ -60,10 +60,13 @@ function Login() {
         })
             .then((response) => {
                 if (response.status === 200) {
+                    userAuthentication(true)  
+                    console.log('here')
                     history.push("/loginsucess")
                 }
             }, (error) => {
                 setErrorSnakeBar(true);
+                userAuthentication(false)
             });
     }
 

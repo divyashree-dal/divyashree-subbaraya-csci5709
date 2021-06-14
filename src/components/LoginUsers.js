@@ -13,7 +13,8 @@ const useStyles = makeStyles({
     },
     search: {
         width: "25%",
-        margin: "auto"
+        margin: "auto",
+        minWidth:"450px"
     }
 });
 
@@ -52,7 +53,7 @@ function LoginUsers() {
     );
 
     async function handleClick(id) {
-        history.push("/loginsucess/" + id);
+        history.push("/userDetail/" + id);
     }
 
     return (
@@ -73,11 +74,11 @@ function LoginUsers() {
                     />
                 </div>
                 
-                <Grid container spacing={3} >
+                <Grid container spacing={3} style={{marginTop:"1%"}}>
                     {filteredUsers.map((r) =>
                     (
-                        <Grid item xs={3} md={3} style={{ margin: 'auto', padding: '2%' }}>
-                            <Paper className={classes.paper} elevation={3}>
+                        <Grid item xs={8} md={3} style={{ margin: 'auto', padding: '2%' }} key={r.id}>
+                            <Paper className={classes.paper} elevation={3} key={r.id}>
                                 <img key={r.id} src={r.picture} alt="user" style={{ width: "100%", height: "100%" }}
                                     onClick={() => handleClick(r.id)} />
                                 <Typography variant="h6" className="typoText">
