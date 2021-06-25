@@ -14,14 +14,14 @@ router.get('/user/:id', async (req, res, next) => {
 
             return res.status(404).json({
                 success: false,
-                message: "user not found",
+                message: "User not found",
             })
             
         }
         else {
             return res.status(200).json({
             success: true,
-            message: "user found",
+            message: "User found",
             data: dataUsers
         })
         }

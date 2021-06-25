@@ -10,14 +10,14 @@ router.get('/all', async (req, res, next) => {
 
             return res.status(404).json({
                 success: false,
-                message: "users not found",
+                message: "Users not retrieved",
             })
             
         }
         else {
             return res.status(200).json({
             success: true,
-            message: "users found",
+            message: "Users retrieved",
             data: users.users
         })
         }

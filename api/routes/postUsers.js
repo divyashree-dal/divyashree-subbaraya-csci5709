@@ -19,7 +19,7 @@ router.post('/add',async (req, res, next) => {
 
         return res.status(200).json({
             success: true,
-            message: "user added",
+            message: "User added",
         })
     }
 

@@ -21,7 +21,7 @@ router.put('/update/:id', async (req, res, next) => {
             var replacedUser = user.replaceUserData(req.body,id)   
             return res.status(200).json({
             success: true,
-            message: "user updated",
+            message: "User updated",
             data: replacedUser
         })
         }
