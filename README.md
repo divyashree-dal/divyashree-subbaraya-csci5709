@@ -1,9 +1,9 @@
 ##Tutorial 5 individual Activity
 
-This individual assignment consists of creating API calls using Express.js, which includes POST, PUT, DELETE, and GET
+This individual assignment consists of creating API calls using Express.js, which includes POST, PUT, DELETE, and GET calls
 
 * Date Created: 23 06 2021
-* Last Modification Date: 27 06 2021
+* Last Modification Date: 25 06 2021
 
 ## Author
 
@@ -20,7 +20,7 @@ This individual assignment consists of creating API calls using Express.js, whic
 
 ## Individual branch link
 
-* 
+* https://github.com/divyashree-dal/divyashree-subbaraya-csci5709/tree/divyashree-subbaraya-t5-csci5709
 
 ## Git repository link
 
@@ -28,5 +28,16 @@ This individual assignment consists of creating API calls using Express.js, whic
 
 ## Deployed Application link
 
-* 
+* https://tutorial5node.herokuapp.com/
+
+## Links to know to access different API calls
+
+* Get all users API call: https://tutorial5node.herokuapp.com/api/users/all
+
+* POST a user: https://tutorial5node.herokuapp.com/api/users/add
+
+* Get a user by Id: https://tutorial5node.herokuapp.com/api/users/user/{id}
+
+* PUT a user by Id: https://tutorial5node.herokuapp.com/api/users/update/{id}
+
 
