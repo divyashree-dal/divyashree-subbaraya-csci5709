@@ -1,6 +1,6 @@
 ##Tutorial 5 individual Activity
 
-This individual assignment consists of creating API calls using Express.js, which includes POST, PUT, DELETE, and GET calls
+This individual assignment consists of creating API calls using Express.js, which includes POST, PUT, and GET calls
 
 * Date Created: 23 06 2021
 * Last Modification Date: 25 06 2021
