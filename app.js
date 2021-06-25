@@ -14,6 +14,8 @@ const appRoute = '/api'
 
 app.use(express.json());
 
+app.use(express.static("public"))
+
 app.use(appRoute + "/users", userGetRoute)
 
 app.use(appRoute + "/users", userPostRoute)
