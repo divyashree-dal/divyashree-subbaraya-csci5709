@@ -4,7 +4,7 @@
   "description": "This individual assignment consists of creating API calls using Express.js, which includes POST, PUT, DELETE, and GET",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
